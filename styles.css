@@ -63,7 +63,9 @@ table {
 }
 
 /* GLOBAL STYLES (mobile first/small) */
-
+@media screen and (min-width:500px){
+    
+}
 
 /* MEDIA QUERY (medium) */
 @media screen and (min-width:600px)
