@@ -69,6 +69,7 @@ body{
 .logo{
 	display: flex;
 	justify-content: center;
+	background-color: var(--midnight-blue);
 }
 .logo img{
 	width: 200px;
@@ -76,6 +77,23 @@ body{
 }
 h1{
 	text-align: center;
+	background-color: var(--midnight-blue);
+	color: var(--soft-white);
+	font-family: "Playfair Display", serif;
+}
+p{
+	text-align: center;
+	background-color: var(--midnight-blue);
+	color: var(--soft-white);
+	font-family: "Playfair Display", serif;
+}
+nav ul{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: auto;
+	background-color: var(--champagne-gold);
+
 }
 	
 /* MEDIA QUERY (medium) */
