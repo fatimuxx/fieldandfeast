@@ -120,20 +120,39 @@ p{
 	padding: 1em;	
 	text-align: left;
 }
-.artisan{
-	
+.threeblocks{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 16px;
+	background-color: var(--olive-green);
+	color: var(--soft-white);
+
+}
+.threeblocks > div{
+	padding: 20px;
+	border-radius: 10px;
+	align-items: stretch;
+	gap: 10px;
+}
+.allimg{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+h3{
 	font-family: "Playfair Display", serif;
 	background-color: var(--olive-green);
+	text-align: center;
+	color: var(--soft-white);
 }
-.exclusive{
-	
-	font-family: "Playfair Display", serif;	
-	background-color: var(--olive-green);
-}
-.monthlybasket{
-	
-	font-family: "Playfair Display", serif;	
-	background-color: var(--olive-green);	
+footer{
+	display: block;
+	font-family: "Playfair Display", serif;
+	background-color: var(--midnight-blue);
+	padding: 3em;
+	color: var(--soft-white);
+	text-align: center	;
+	text-decoration: none;
 }
 /* MEDIA QUERY (medium) */
 @media screen and (min-width:600px){
