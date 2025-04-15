@@ -63,15 +63,21 @@ table {
 }
 
 /* GLOBAL STYLES (mobile first/small) */
-@media screen and (min-width:500px){
-    
+body{
+	background-color: var(--champagne-gold);
+}
+	
+/* MEDIA QUERY (medium) */
+@media screen and (min-width:600px){
+
 }
 
-/* MEDIA QUERY (medium) */
-@media screen and (min-width:600px)
-
 /* MEDIA QUERY (large) */
-@media screen and (min-width:900px)
+@media screen and (min-width:900px){
+
+}
 
 /* MEDIA QUERY (xl) */
-@media screen and (min-width:1200px)
+@media screen and (min-width:1200px){
+    
+}
