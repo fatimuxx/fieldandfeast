@@ -65,7 +65,9 @@ table {
 /* GLOBAL STYLES (mobile first/small) */
 body{
 	background-color: var(--linen);
+	
 }
+
 .logo{
 	display: flex;
 	justify-content: center;
@@ -109,10 +111,29 @@ nav a{
 }
 h2{
 	font-family: "Playfair Display", serif;
-	padding-bottom: 1em;	
+	padding-bottom: 1em;
+	font-size: 25px;
+	
 }
-.welcome{
-	background-color: var(--linen);
+p{
+	font-family: "Playfair Display", serif;
+	padding: 1em;	
+	text-align: left;
+}
+.artisan{
+	
+	font-family: "Playfair Display", serif;
+	background-color: var(--olive-green);
+}
+.exclusive{
+	
+	font-family: "Playfair Display", serif;	
+	background-color: var(--olive-green);
+}
+.monthlybasket{
+	
+	font-family: "Playfair Display", serif;	
+	background-color: var(--olive-green);	
 }
 /* MEDIA QUERY (medium) */
 @media screen and (min-width:600px){
