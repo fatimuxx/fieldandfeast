@@ -74,6 +74,9 @@ body{
 	width: 200px;
 	height: 300px;
 }
+h1{
+	text-align: center;
+}
 	
 /* MEDIA QUERY (medium) */
 @media screen and (min-width:600px){
