@@ -74,18 +74,23 @@ body{
 .logo img{
 	width: 200px;
 	height: 300px;
+	padding-bottom: 1em;
 }
 h1{
 	text-align: center;
 	background-color: var(--midnight-blue);
 	color: var(--soft-white);
 	font-family: "Playfair Display", serif;
+	font-size: 55px;
+	padding-bottom: 1em;
+	font-weight: bold;
 }
-p{
+.intro p{
 	text-align: center;
 	background-color: var(--midnight-blue);
 	color: var(--soft-white);
 	font-family: "Playfair Display", serif;
+	font-style: italic;
 }
 nav ul{
 	display: flex;
@@ -93,9 +98,22 @@ nav ul{
 	list-style: none;
 	margin: auto;
 	background-color: var(--champagne-gold);
-
+	gap:100px;
+	font-family: "Playfair Display", serif;
+	font-weight: bold;
 }
-	
+nav a{
+	text-decoration: none;
+	font-size: 20px;
+	height: 5px;
+}
+h2{
+	font-family: "Playfair Display", serif;
+	padding-bottom: 1em;	
+}
+.welcome{
+	background-color: var(--linen);
+}
 /* MEDIA QUERY (medium) */
 @media screen and (min-width:600px){
 
